@@ -1,0 +1,128 @@
+<svg
+     
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <rect
+        width="24"
+        height="24"
+        stroke="none"
+        fill="#000000"
+        opacity="0"
+      />
+
+      <g transform="matrix(0.31 0 0 0.31 12 12)">
+        <g transform="matrix(1 0 0 1 -13 5.5)">
+          <linearGradient
+            id="SVGID_QAzoyWpXxOdtGYT2BhOtLa_1"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(1 0 0 1 0 0)"
+            x1="19"
+            y1="34.417"
+            x2="19"
+            y2="40.584"
+          >
+            <stop
+              offset="0%"
+              style="stop-color: rgb(109, 199, 255); stop-opacity: 1"
+            />
+            <stop
+              offset="100%"
+              style="stop-color: rgb(230, 171, 255); stop-opacity: 1"
+            />
+          </linearGradient>
+          <path
+            style="
+              stroke: none;
+              stroke-width: 1;
+              stroke-dasharray: none;
+              stroke-linecap: butt;
+              stroke-dashoffset: 0;
+              stroke-linejoin: miter;
+              stroke-miterlimit: 4;
+              fill: url(#SVGID_QAzoyWpXxOdtGYT2BhOtLa_1);
+              fill-rule: nonzero;
+              opacity: 1;
+            "
+            transform=" translate(-19, -37.5)"
+            d="M 24.81 37.5 C 23.35 39.04 21.29 40 19 40 C 16.71 40 14.65 39.04 13.190000000000001 37.5 C 14.65 35.96 16.71 35 19 35 C 21.29 35 23.35 35.96 24.81 37.5 z"
+            stroke-linecap="round"
+          />
+        </g>
+        <g transform="matrix(1 0 0 1 -13 -2)">
+          <linearGradient
+            id="SVGID_QAzoyWpXxOdtGYT2BhOtLb_2"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(1 0 0 1 0 0)"
+            x1="19"
+            y1="26.583"
+            x2="19"
+            y2="33.425"
+          >
+            <stop
+              offset="0%"
+              style="stop-color: rgb(109, 199, 255); stop-opacity: 1"
+            />
+            <stop
+              offset="100%"
+              style="stop-color: rgb(230, 171, 255); stop-opacity: 1"
+            />
+          </linearGradient>
+          <path
+            style="
+              stroke: none;
+              stroke-width: 1;
+              stroke-dasharray: none;
+              stroke-linecap: butt;
+              stroke-dashoffset: 0;
+              stroke-linejoin: miter;
+              stroke-miterlimit: 4;
+              fill: url(#SVGID_QAzoyWpXxOdtGYT2BhOtLb_2);
+              fill-rule: nonzero;
+              opacity: 1;
+            "
+            transform=" translate(-19, -30)"
+            d="M 19 27 C 17.34314575050762 27 16 28.34314575050762 16 30 C 16 31.65685424949238 17.34314575050762 33 19 33 C 20.65685424949238 33 22 31.65685424949238 22 30 C 22 28.34314575050762 20.65685424949238 27 19 27 Z"
+            stroke-linecap="round"
+          />
+        </g>
+        <g transform="matrix(1 0 0 1 0 0)">
+          <linearGradient
+            id="SVGID_QAzoyWpXxOdtGYT2BhOtLc_3"
+            gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(1 0 0 1 0 0)"
+            x1="32"
+            y1="7.75"
+            x2="32"
+            y2="57.004"
+          >
+            <stop
+              offset="0%"
+              style="stop-color: rgb(26, 109, 255); stop-opacity: 1"
+            />
+            <stop
+              offset="100%"
+              style="stop-color: rgb(200, 34, 255); stop-opacity: 1"
+            />
+          </linearGradient>
+          <path
+            style="
+              stroke: none;
+              stroke-width: 1;
+              stroke-dasharray: none;
+              stroke-linecap: butt;
+              stroke-dashoffset: 0;
+              stroke-linejoin: miter;
+              stroke-miterlimit: 4;
+              fill: url(#SVGID_QAzoyWpXxOdtGYT2BhOtLc_3);
+              fill-rule: nonzero;
+              opacity: 1;
+            "
+            transform=" translate(-32, -32)"
+            d="M 57 29 C 57 27.346 55.653999999999996 26 54 26 L 54 24 C 55.653999999999996 24 57 22.654 57 21 C 57 19.346 55.653999999999996 18 54 18 L 54 13 C 54 10.243 51.757 8 49 8 L 48 8 C 48 6.897 47.103 6 46 6 L 42 6 C 40.897 6 40 6.897 40 8 L 23 8 C 20.243 8 18 10.243 18 13 L 18 20.051000000000002 C 11.85 20.562 7 25.72 7 32 C 7 38.28 11.85 43.438 18 43.949 L 18 51 C 18 53.757 20.243 56 23 56 L 40 56 C 40 57.103 40.897 58 42 58 L 46 58 C 47.103 58 48 57.103 48 56 L 49 56 C 51.757 56 54 53.757 54 51 L 54 48 C 55.653999999999996 48 57 46.653999999999996 57 45 C 57 43.346000000000004 55.653999999999996 42 54 42 L 54 40 C 55.653999999999996 40 57 38.653999999999996 57 37 C 57 35.346000000000004 55.653999999999996 34 54 34 L 54 32 C 55.654 32 57 30.654 57 29 z M 23 10 L 40 10 L 40 19 L 28 19 C 26.897 19 26 19.897 26 21 L 26 22.273 C 24.282 21.033 22.229 20.236 20 20.051 L 20 13 C 20 11.346 21.346 10 23 10 z M 28 24.089 L 28 21 L 40 21 L 40 27 L 29.895 27 C 29.405 25.936 28.765 24.958 28 24.089 z M 9 32 C 9 26.486 13.486 22 19 22 C 24.514 22 29 26.486 29 32 C 29 37.513999999999996 24.514 42 19 42 C 13.486 42 9 37.514 9 32 z M 23 54 C 21.346 54 20 52.653999999999996 20 51 L 20 43.949 C 26.15 43.438 31 38.28 31 32 C 31 30.962 30.854 29.961 30.605 29 L 40 29 L 40 31 L 33 31 L 33 33 L 40 33 L 40 35 L 33 35 L 33 37 L 40 37 L 40 39 L 33 39 L 33 41 L 40 41 L 40 43 L 30 43 L 30 45 L 40 45 L 40 54 L 23 54 z M 55 29 C 55 29.552 54.552 30 54 30 L 54 28 C 54.552 28 55 28.448 55 29 z M 55 21 C 55 21.552 54.552 22 54 22 L 54 20 C 54.552 20 55 20.448 55 21 z M 42 56 L 42 8 L 46 8 L 46.002 56 L 42 56 z M 55 45 C 55 45.552 54.552 46 54 46 L 54 44 C 54.552 44 55 44.448 55 45 z M 55 37 C 55 37.552 54.552 38 54 38 L 54 36 C 54.552 36 55 36.448 55 37 z M 52 36 L 52 42 L 50 42 L 50 44 L 52 44 L 52 51 C 52 52.653999999999996 50.653999999999996 54 49 54 L 48 54 L 48 10 L 49 10 C 50.653999999999996 10 52 11.346 52 13 L 52 18 L 50 18 L 50 20 L 52 20 L 52 26 L 50 26 L 50 28 L 52 28 L 52 34 L 50 34 L 50 36 L 52 36 z"
+            stroke-linecap="round"
+          />
+        </g>
+      </g>
+    </svg> 

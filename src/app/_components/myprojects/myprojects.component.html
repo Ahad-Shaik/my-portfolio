@@ -1,0 +1,74 @@
+<section id="section-proj" class="section section-five">
+  <div class="proj-text" [@fadeInRight]="projState">
+    <img
+      src="assets/project-head-icon.svg"
+      alt="Project Icon"
+      class="main-head-image"
+    />
+    <span class="main-head-color">PROJECTS</span>
+  </div>
+  <div class="exp-desc">
+    <p
+      class="proj-desc"
+      *ngIf="projState"
+      [@bounceInLeftOnEnter]
+      [@fadeOutOnLeave]
+    >
+      Project Overview: Real-Time Website Development for Rise Krishna
+      Polytechnic College
+    </p>
+
+    <p
+      class="proj-desc"
+      *ngIf="projState"
+      [@bounceInLeftOnEnter]
+      [@fadeOutOnLeave]
+    >
+      During my 3rd year of B.Tech, I involved in the development of a real-time
+      website for Rise Krishna Polytechnic College. The goal of the project was
+      to create an interactive and informative platform that showcases the
+      facilities and services offered by the college to students, parents, and
+      other stakeholders. As part of my role in the project, I am responsible
+      for gathering requirements, collecting relevant images, and designing the
+      facilities screen.
+    </p>
+
+    <mat-accordion>
+      <mat-expansion-panel
+        class="responsive-panel"
+        *ngIf="projState"
+        [@slideInRightOnEnter]
+        [@fadeOutOnLeave]
+      >
+        <mat-expansion-panel-header>
+          <mat-panel-title style="color: #FF007A;font-weight:bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)">
+            Project Description:</mat-panel-title
+          >
+          <mat-panel-description style="color: #FF007A;font-weight:bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)">
+            Rise Krishna Polytechnic College website
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+        <p class="mat-proj-desc">
+          The real-time website for Rise Krishna Polytechnic College aimed to
+          provide a comprehensive online presence for the institution, allowing
+          visitors to easily access information about the college, its
+          facilities, academic programs, admission procedures, and other
+          relevant details. The website served as a hub for prospective students
+          and their parents to learn more about the college and make informed
+          decisions.
+        </p>
+        <p class="mat-proj-desc">
+          In addition to gathering requirements, I am responsible for collecting
+          high-quality images that depicted the various facilities available at
+          the college. This involved collaborating with different departments,
+          capturing photographs, and ensuring the visual representation
+          accurately portrayed the college's infrastructure, labs, library,
+          sports facilities, and other key areas.
+        </p>
+      </mat-expansion-panel>
+    </mat-accordion>
+
+    <button type="button" matTooltip="Open Site" onclick="window.open('http://www.risekrishnasaipolytechnic.edu.in/')"  matTooltipPosition="below" class="btn btn-info btn-rounded gradient-button">Live Site</button>
+   
+  </div>
+</section>

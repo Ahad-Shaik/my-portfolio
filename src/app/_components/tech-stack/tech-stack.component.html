@@ -1,0 +1,73 @@
+<section id="section-techs" class="section section-two">
+  <div class="skill-text" *ngIf="techState" [@zoomInOnEnter]="{ value: '', params: { duration: 1000 } }" [@zoomOutOnLeave]>
+    <img
+      src="assets/skill-head-icon.svg"
+      
+      alt="Skill Icon"
+      class="main-head-image"
+    />
+
+  <span class="main-head-color">  MY </span> <span style="color: rgb(57, 223, 57); font-weight: bold">SKILLS</span>
+  </div>
+  <div class="skills-logo">
+    <img
+      src="assets/angular-icon.svg"
+      matTooltip="Angular 9+"
+      matTooltipPosition="below"
+      alt="Angular Icon"
+      class="test-logo circle-image"
+      *ngIf="techState" [@flipInYOnEnter]="{ value: '', params: { duration: 2000 } }" [@flipOutYOnLeave]
+    />
+    <img
+      src="assets/html-icon.svg"
+      matTooltip="HTML 5"
+      matTooltipPosition="below"
+      alt="Html Icon"
+      class="test-logo circle-image"
+      *ngIf="techState" [@flipInYOnEnter]="{ value: '', params: { duration: 2000 } }" [@flipOutYOnLeave]
+    />
+
+    <img
+      src="assets/css3-icon.svg"
+      matTooltip="CSS 3"
+      matTooltipPosition="below"
+      alt="CSS Icon"
+      class="test-logo circle-image"
+      *ngIf="techState" [@flipInYOnEnter]="{ value: '', params: { duration: 2000 } }" [@flipOutYOnLeave]
+    />
+    <img
+      src="assets/json-icon.svg"
+      matTooltip="JSON"
+      matTooltipPosition="below"
+      alt="Json Icon"
+      class="test-logo circle-image"
+      *ngIf="techState" [@flipInYOnEnter]="{ value: '', params: { duration: 2000 } }" [@flipOutYOnLeave]
+    />
+
+    <img
+      src="assets/rest-api-icon.svg"
+      matTooltip="Rest Api"
+      matTooltipPosition="below"
+      alt="Api Icon"
+      class="test-logo circle-image"
+      *ngIf="techState" [@flipInYOnEnter]="{ value: '', params: { duration: 2000 } }"  [@flipOutYOnLeave]
+    />
+    <img
+      src="assets/javaScript-icon.svg"
+      matTooltip="JavaScript"
+      matTooltipPosition="below"
+      alt="JavaScript Icon"
+      class="test-logo circle-image"
+      *ngIf="techState"  [@flipInYOnEnter]="{ value: '', params: { duration: 2000 } }" [@flipOutYOnLeave]
+    />
+
+    <img
+      src="assets/git-icon.svg"
+      matTooltip="Git/GitHub"
+      matTooltipPosition="below"
+      alt="Git Icon"
+      class="test-logo circle-image"
+      *ngIf="techState" [@flipInYOnEnter]="{ value: '', params: { duration: 2000 } }" [@flipOutYOnLeave]
+    />
+  </div>
+</section>

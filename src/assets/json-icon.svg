@@ -1,0 +1,204 @@
+<svg
+      class="test-logo"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <rect
+          width="24"
+          height="24"
+          stroke="none"
+          fill="#000000"
+          opacity="0"
+        />
+
+        <g transform="matrix(0.31 0 0 0.31 12 12)">
+          <g transform="matrix(1 0 0 1 4 2)">
+            <linearGradient
+              id="SVGID_0kT4SjoZJb~ODMncYCQn7a_1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="matrix(1 0 0 1 0 0)"
+              x1="36"
+              y1="29"
+              x2="36"
+              y2="39"
+            >
+              <stop
+                offset="0%"
+                style="stop-color: rgb(109, 199, 255); stop-opacity: 1"
+              />
+              <stop
+                offset="100%"
+                style="stop-color: rgb(230, 171, 255); stop-opacity: 1"
+              />
+            </linearGradient>
+            <path
+              style="
+                stroke: none;
+                stroke-width: 1;
+                stroke-dasharray: none;
+                stroke-linecap: butt;
+                stroke-dashoffset: 0;
+                stroke-linejoin: miter;
+                stroke-miterlimit: 4;
+                fill: url(#SVGID_0kT4SjoZJb~ODMncYCQn7a_1);
+                fill-rule: nonzero;
+                opacity: 1;
+              "
+              transform=" translate(-36, -34)"
+              d="M 37 39 L 35 39 C 33.895 39 33 38.105 33 37 L 33 31 C 33 29.895 33.895 29 35 29 L 37 29 C 38.105 29 39 29.895 39 31 L 39 37 C 39 38.105 38.105 39 37 39 z M 35.5 37 L 36.5 37 C 36.776 37 37 36.776 37 36.5 L 37 31.5 C 37 31.224 36.776 31 36.5 31 L 35.5 31 C 35.224 31 35 31.224 35 31.5 L 35 36.5 C 35 36.776 35.224 37 35.5 37 z"
+              stroke-linecap="round"
+            />
+          </g>
+          <g transform="matrix(1 0 0 1 -12 2)">
+            <linearGradient
+              id="SVGID_0kT4SjoZJb~ODMncYCQn7b_2"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="matrix(1 0 0 1 0 0)"
+              x1="20"
+              y1="29"
+              x2="20"
+              y2="39"
+            >
+              <stop
+                offset="0%"
+                style="stop-color: rgb(109, 199, 255); stop-opacity: 1"
+              />
+              <stop
+                offset="100%"
+                style="stop-color: rgb(230, 171, 255); stop-opacity: 1"
+              />
+            </linearGradient>
+            <path
+              style="
+                stroke: none;
+                stroke-width: 1;
+                stroke-dasharray: none;
+                stroke-linecap: butt;
+                stroke-dashoffset: 0;
+                stroke-linejoin: miter;
+                stroke-miterlimit: 4;
+                fill: url(#SVGID_0kT4SjoZJb~ODMncYCQn7b_2);
+                fill-rule: nonzero;
+                opacity: 1;
+              "
+              transform=" translate(-20, -34)"
+              d="M 21 37 L 19 37 L 19 35.5 C 19 35.224 18.776 35 18.5 35 L 17.5 35 C 17.224 35 17 35.224 17 35.5 L 17 37 C 17 38.105 17.895 39 19 39 L 21 39 C 22.105 39 23 38.105 23 37 L 23 29.5 C 23 29.224 22.776 29 22.5 29 L 21.5 29 C 21.224 29 21 29.224 21 29.5 L 21 37 z"
+              stroke-linecap="round"
+            />
+          </g>
+          <g transform="matrix(1 0 0 1 12 2)">
+            <linearGradient
+              id="SVGID_0kT4SjoZJb~ODMncYCQn7c_3"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="matrix(1 0 0 1 0 0)"
+              x1="44"
+              y1="29"
+              x2="44"
+              y2="39"
+            >
+              <stop
+                offset="0%"
+                style="stop-color: rgb(109, 199, 255); stop-opacity: 1"
+              />
+              <stop
+                offset="100%"
+                style="stop-color: rgb(230, 171, 255); stop-opacity: 1"
+              />
+            </linearGradient>
+            <path
+              style="
+                stroke: none;
+                stroke-width: 1;
+                stroke-dasharray: none;
+                stroke-linecap: butt;
+                stroke-dashoffset: 0;
+                stroke-linejoin: miter;
+                stroke-miterlimit: 4;
+                fill: url(#SVGID_0kT4SjoZJb~ODMncYCQn7c_3);
+                fill-rule: nonzero;
+                opacity: 1;
+              "
+              transform=" translate(-44, -34)"
+              d="M 45 29.5 L 45 34.5 L 43.12 29.329 C 43.048 29.132 42.86 29 42.65 29 L 41.5 29 C 41.224 29 41 29.224 41 29.5 L 41 38.5 C 41 38.776 41.224 39 41.5 39 L 42.5 39 C 42.776 39 43 38.776 43 38.5 L 43 33.5 L 44.88 38.671 C 44.952 38.868 45.14 39 45.35 39 L 46.5 39 C 46.776 39 47 38.776 47 38.5 L 47 29.5 C 47 29.224 46.776 29 46.5 29 L 45.5 29 C 45.224 29 45 29.224 45 29.5 z"
+              stroke-linecap="round"
+            />
+          </g>
+          <g transform="matrix(1 0 0 1 0 0)">
+            <linearGradient
+              id="SVGID_0kT4SjoZJb~ODMncYCQn7d_4"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="matrix(1 0 0 -1 0 570)"
+              x1="32"
+              y1="565"
+              x2="32"
+              y2="509.988"
+            >
+              <stop
+                offset="0%"
+                style="stop-color: rgb(26, 109, 255); stop-opacity: 1"
+              />
+              <stop
+                offset="100%"
+                style="stop-color: rgb(200, 34, 255); stop-opacity: 1"
+              />
+            </linearGradient>
+            <path
+              style="
+                stroke: none;
+                stroke-width: 1;
+                stroke-dasharray: none;
+                stroke-linecap: butt;
+                stroke-dashoffset: 0;
+                stroke-linejoin: miter;
+                stroke-miterlimit: 4;
+                fill: url(#SVGID_0kT4SjoZJb~ODMncYCQn7d_4);
+                fill-rule: nonzero;
+                opacity: 1;
+              "
+              transform=" translate(-32, -32)"
+              d="M 51.121 15.707 L 42.293000000000006 6.879000000000001 C 41.727 6.313 40.973 6 40.171 6 L 15 6 C 13.346 6 12 7.346 12 9 L 12 49 L 12 51 L 12 55 C 12 56.653999999999996 13.346 58 15 58 L 49 58 C 50.653999999999996 58 52 56.653999999999996 52 55 L 52 51 L 52 49 L 52 17.828 C 52 17.027 51.688 16.273 51.121 15.707 z M 48.586 16 L 43 16 C 42.449 16 42 15.552 42 15 L 42 9.414 L 48.586 16 z M 49 56 L 15 56 C 14.449 56 14 55.552 14 55 L 14 53.815 C 14.314 53.928 14.648 54 15 54 L 49 54 C 49.352 54 49.686 53.928 50 53.816 L 50 55 C 50 55.552 49.551 56 49 56 z M 50 51 C 50 51.552 49.551 52 49 52 L 15 52 C 14.449 52 14 51.552 14 51 L 14 49 L 14 9 C 14 8.448 14.449 8 15 8 L 40 8 L 40 15 C 40 16.654 41.346000000000004 18 43 18 L 50 18 L 50 49 L 50 51 z"
+              stroke-linecap="round"
+            />
+          </g>
+          <g transform="matrix(1 0 0 1 -4 2)">
+            <linearGradient
+              id="SVGID_0kT4SjoZJb~ODMncYCQn7e_5"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="matrix(1 0 0 1 0 0)"
+              x1="28"
+              y1="29"
+              x2="28"
+              y2="39"
+            >
+              <stop
+                offset="0%"
+                style="stop-color: rgb(109, 199, 255); stop-opacity: 1"
+              />
+              <stop
+                offset="100%"
+                style="stop-color: rgb(230, 171, 255); stop-opacity: 1"
+              />
+            </linearGradient>
+            <path
+              style="
+                stroke: none;
+                stroke-width: 1;
+                stroke-dasharray: none;
+                stroke-linecap: butt;
+                stroke-dashoffset: 0;
+                stroke-linejoin: miter;
+                stroke-miterlimit: 4;
+                fill: url(#SVGID_0kT4SjoZJb~ODMncYCQn7e_5);
+                fill-rule: nonzero;
+                opacity: 1;
+              "
+              transform=" translate(-28, -34)"
+              d="M 29 39 L 25.5 39 C 25.224 39 25 38.776 25 38.5 L 25 37.5 C 25 37.224 25.224 37 25.5 37 L 29 37 L 29 35 L 27 35 C 25.895 35 25 34.105 25 33 L 25 31 C 25 29.895 25.895 29 27 29 L 29.5 29 C 29.776 29 30 29.224 30 29.5 L 30 30.5 C 30 30.776 29.776 31 29.5 31 L 27 31 L 27 33 L 29 33 C 30.105 33 31 33.895 31 35 L 31 37 C 31 38.105 30.105 39 29 39 z"
+              stroke-linecap="round"
+            />
+          </g>
+        </g>
+      </svg>

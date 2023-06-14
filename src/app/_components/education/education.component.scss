@@ -1,0 +1,54 @@
+.educ-text {
+  padding: 10px;
+  justify-items: center; /* Align items horizontally in the center */
+  align-items: center; /* Align items vertically in the center */
+  text-align: center;
+}
+
+.section {
+  display: grid;
+  &-four {
+    height: 80vh;
+    grid-template-rows: 0.3fr 1fr;
+  }
+}
+
+.educ-dets {
+  align-items: center;
+  text-align: left;
+  margin-left: 100vh;
+}
+
+.edu-circle-icon{
+  width: 40px;
+  height: 40px;
+}
+
+.edu-timer-icon {
+  width: 25px;
+  height: 25px;
+}
+.shift-left {
+  margin-left: 2.5rem;
+}
+
+@media (max-width: 767px) {
+  .educ-dets {
+    text-align: left;
+    margin-left: 10vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .educ-dets {
+    text-align: left;
+    margin-left: 10vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .educ-dets {
+    text-align: left;
+    margin-left: 90vh;
+  }
+}

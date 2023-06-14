@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+svg{
+    width:80px;
+    height:80px;
+    border-radius: 2px;
+    border-color: black;
+  }
+ 
+  .circle-image {
+    width: 85px; 
+    height:85px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+.main-head-image{
+  width: 90px; 
+    height:90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-head-color{
+  font-weight: bold;
+  --tw-text-opacity: 1;
+    color: rgb(103 232 249 / var(--tw-text-opacity));
+}
+
+mat-panel-title,mat-panel-description {
+  color: #FF007A;
+  font-weight:bold; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
