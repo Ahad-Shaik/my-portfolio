@@ -1,15 +1,14 @@
 .section-about{
   display: flex;
   flex-direction: column;
- // align-items: center;
-//  overflow-x: hidden;
+ 
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align content to the left */
-  max-width: 800px; /* Adjust the value as needed */
+  align-items: flex-start; 
+  max-width: 800px; 
 }
 
 .about-logo {
@@ -28,7 +27,7 @@
 .profile-image {
   display: flex;
   justify-content: flex-end;
-  margin-top: 20px; /* Adjust the value as needed */
+  margin-top: 20px; 
 }
 
 .sub-head-image {
