@@ -1,4 +1,4 @@
-<section id="section-techs" class="section section-two">
+<div id="section-techs" class="section section-two">
   <div class="skill-text" *ngIf="techState" [@zoomInOnEnter]="{ value: '', params: { duration: 1000 } }" [@zoomOutOnLeave]>
     <img
       src="assets/skill-head-icon.svg"
@@ -70,4 +70,4 @@
       *ngIf="techState" [@flipInYOnEnter]="{ value: '', params: { duration: 2000 } }" [@flipOutYOnLeave]
     />
   </div>
-</section>
+</div>

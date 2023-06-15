@@ -1,72 +1,37 @@
-// .skills-logo{
-//  // opacity: 0;
-//   //filter: blur(5px);
-//   transform: translateX(20px);
-//   transition: all 1s;
-//   transition-delay: 0.5s;
-// }
+.section-two {
+  display: flex;
+  flex-direction: column;
+}
 
-// .show{
-//     opacity: 0;
-//    filter: blur(0);
-//     transform: translateX(0);
-//   }
+.skill-text {
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
-  .skill-text{
-    padding:10px;
-    justify-items: center; 
-    align-items: center; 
-    text-align: center;
+.skills-logo {
+  display: flex;
+ // flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.test-logo {
+  margin: 0.5rem;
+}
+
+@media (max-width: 767px) {
+  .skill-text {
+    font-size: 1.5rem;
   }
 
-  .section {
-    display: grid;
-      &-two {
-        height: 40vh;
-        grid-template-rows: 0.3fr 1fr; 
-    }
-   
-    
+  .skills-logo {
+    justify-content: center;
   }
-  .skills-logo{
-    text-align: center;
-    margin-left:65vh;
-   }
+}
 
-   @media (max-width: 767px) {
-    .skills-logo{
-      text-align: left;
-      margin-left:10vh;
-      width:60vh;
-     }
-
-    .section-two{
-        height:45vh;
-     }
-    
+@media (max-width: 480px) {
+  .test-logo {
+    max-width: 50%;
+    flex-basis: 50%;
   }
-  
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .skills-logo{
-      text-align: left;
-      margin-left:10vh;
-     }
-  }
-  
-  @media (min-width: 1024px) {
-    .skills-logo{
-      text-align: center;
-      margin-left:65vh;
-     }
-  }
-   
-
-  
-  .circle-image:hover {
-    cursor:pointer;
-  }
- 
-  ::ng-deep .mat-Tooltip {
-    background-color: #ffcc00; /* Set the background color */
-    color: #2a2ae6; /* Set the text color */
-  }
+}

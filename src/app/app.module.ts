@@ -8,11 +8,12 @@ import { EducationComponent } from './_components/education/education.component'
 import { ContactsComponent } from './_components/contacts/contacts.component';
 import { ExperienceComponent } from './_components/experience/experience.component';
 import { AboutMeComponent } from './_components/about-me/about-me.component';
-import {MatIconModule} from '@angular/material/icon';
-import {MatExpansionModule} from '@angular/material/expansion';
+import { MatIconModule } from '@angular/material/icon';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { MyprojectsComponent } from './_components/myprojects/myprojects.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     ContactsComponent,
     ExperienceComponent,
     AboutMeComponent,
-    MyprojectsComponent
+    MyprojectsComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,12 +31,10 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatExpansionModule,
     BrowserAnimationsModule,
     MatTooltipModule,
-
-  
+    NgxExtendedPdfViewerModule,
   ],
-  
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
 
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}

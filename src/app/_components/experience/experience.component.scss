@@ -1,73 +1,109 @@
+.mat-proj-desc {
+  width: 100%;
+  text-align: justify;
+}
+
+.mat-expansion-panel {
+  width: 100%;
+  max-width: 700px; 
+  margin-left: 20px; 
+  margin-top: 5px;
+}
+
+.gradient-button {
+  margin-left:20px;
+  margin-top: 5px;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.gradient-button:hover {
+  transform: scale(1.1);
+}
+.wipro-subhead {
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.wipro-subhead img {
+  margin-right: 5px; /* Adjust the spacing between the image and text as desired */
+}
+
+
+.section-expe {
+  display: flex;
+  flex-direction: column;
+}
+
 .exp-head {
-  padding: 10px;
-  justify-items: center;
-  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
   text-align: center;
 }
-.section {
-  display: grid;
-  &-three {
-    height: 140vh;
-    grid-template-rows: 0fr 1fr;
-  }
-}
+
 .exp-desc {
-  justify-content: left;
-  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: justify;
+  text-align: left;
 }
-.exp-sub-head {
-  width: 50px;
-  height: 50px;
-  overflow: hidden;
-  border-radius: 50%;
+.exp-desc p:nth-child(n+2){
+  text-align: left;
+  width: 100%;
+  max-width: 700px; 
+  margin-left: 20px; 
 }
-.proj-desc {
-  width: 110vh;
+
+.exp-desc p:nth-child(n+2) {
   text-align: justify;
 }
+@media (min-width: 576px) {
+  .exp-head,.exp-desc{
+    align-items: flex-start;
+    text-align: center;
+  }
 
-.mat-proj-desc
-{
-  width: 100vh;
-  text-align: justify;
-}
-@media (max-width: 767px) {
-  .section-three {
-    height: 200vh;
-  }
-  .proj-desc {
-    width: 60vh;
-    text-align: justify;
-  }
-  .responsive-panel{
-    width:60vh;
-    margin-top:5px;
+  .exp-desc {
+    text-align:left;
+    margin-left: 20px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .proj-desc {
-    width: 80vh;
-    text-align: justify;
+@media (min-width: 768px) {
+  .exp-head{
+    align-items: center;
+    text-align: center;
   }
-  .responsive-panel{
-    width:80vh;
-    margin-top:5px;
+
+  .exp-desc {
+    text-align:left;
+    margin-left: 20px;
   }
 }
 
-@media (min-width: 1024px) {
-  .proj-desc {
-    width: 110vh;
-    text-align: justify;
+@media (min-width: 992px) {
+  .exp-head{
+    align-items: center;
+    text-align: center;
   }
-  .responsive-panel{
-    width:110vh;
-    margin-top:5px;
+
+  .exp-desc {
+    text-align: left;
+    margin-left: 20px;
   }
 }
 
-mat-expansion-panel{
-  width:110vh;
-  margin-top:5px;
+@media (min-width: 1200px) {
+  .exp-head{
+    align-items: center;
+    text-align: center;
+  }
+
+  .exp-desc {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
 }

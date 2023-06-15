@@ -1,4 +1,4 @@
-<section id="section-expe" class="section section-three">
+<div class="section-expe" >
   <div class="exp-head" [@heartBeat]="expState">
     <img
       src="assets/experience-head-icon.svg"
@@ -51,8 +51,22 @@
         (click)="togglePanels('panel1')"
       >
         <mat-expansion-panel-header>
-          <mat-panel-title style="color: #FF007A;font-weight:bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)"> Project 01 </mat-panel-title>
-          <mat-panel-description style="color: #FF007A;font-weight:bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)" >
+          <mat-panel-title
+            style="
+              color: #ff007a;
+              font-weight: bold;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            "
+          >
+            Project 01
+          </mat-panel-title>
+          <mat-panel-description
+            style="
+              color: #ff007a;
+              font-weight: bold;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            "
+          >
             Av-TRIP
           </mat-panel-description>
         </mat-expansion-panel-header>
@@ -75,8 +89,22 @@
         (click)="togglePanels('panel2')"
       >
         <mat-expansion-panel-header>
-          <mat-panel-title style="color: #FF007A;font-weight:bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"> Project 02 </mat-panel-title>
-          <mat-panel-description style="color: #FF007A;font-weight:bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+          <mat-panel-title
+            style="
+              color: #ff007a;
+              font-weight: bold;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            "
+          >
+            Project 02
+          </mat-panel-title>
+          <mat-panel-description
+            style="
+              color: #ff007a;
+              font-weight: bold;
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            "
+          >
             AIROPS
           </mat-panel-description>
         </mat-expansion-panel-header>
@@ -123,5 +151,7 @@
       I look forward to utilizing my skills and experience in future endeavors
       as I continue to grow as a frontend developer.
     </p>
+
+    <button type="button" (click)="previewPdf()"  class="btn btn-info btn-rounded gradient-button">Download Resume</button>
   </div>
-</section>
+</div>

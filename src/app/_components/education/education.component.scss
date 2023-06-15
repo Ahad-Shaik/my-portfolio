@@ -1,23 +1,3 @@
-.educ-text {
-  padding: 10px;
-  justify-items: center; /* Align items horizontally in the center */
-  align-items: center; /* Align items vertically in the center */
-  text-align: center;
-}
-
-.section {
-  display: grid;
-  &-four {
-    height: 80vh;
-    grid-template-rows: 0.3fr 1fr;
-  }
-}
-
-.educ-dets {
-  align-items: center;
-  text-align: left;
-  margin-left: 100vh;
-}
 
 .edu-circle-icon{
   width: 40px;
@@ -32,23 +12,56 @@
   margin-left: 2.5rem;
 }
 
-@media (max-width: 767px) {
+ .section-educ {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.educ-dets {
+  text-align: left;
+  margin-left:20px;
+}
+
+@media (min-width: 576px) {
+  .educ-text{
+    text-align: center;
+  }
+
   .educ-dets {
     text-align: left;
-    margin-left: 10vh;
+    margin-left:20px;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
+  // .section-educ {
+  //   align-items: center;
+  //   text-align: center;
+  // }
   .educ-dets {
     text-align: left;
-    margin-left: 10vh;
+    margin-left:40px;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
+  .educ-text{
+    text-align: center;
+  }
   .educ-dets {
     text-align: left;
-    margin-left: 90vh;
+    margin-left:30vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-educ {
+    align-items: center;
+    text-align: center;
+  }
+  .educ-dets {
+    text-align: left;
+    margin-left:40vh;
   }
 }

@@ -1,8 +1,9 @@
 
 .my-body{
-  //background-image: linear-gradient(-125deg, rgb(22, 10, 6), rgb(13, 2, 24));
+  background-image: linear-gradient(-125deg, rgb(22, 10, 6), rgb(13, 2, 24));
   --tw-bg-opacity: 1;
     background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+    scroll-behavior: smooth;
 }
 .hoverable{
   display:inline-block;
@@ -27,7 +28,6 @@
   opacity:0;
   background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-  /* W3C */
   transition-duration: 0.3s;
   transition-property: transform, opacity;
 }
@@ -41,35 +41,20 @@
 }
 
 
-
-/* Media queries for responsiveness */
-
-/* Small screens */
-@media (max-width: 767px) {
-  body{
-    overflow-x: auto;
-  }
-  
+.my-body {
+  overflow: auto; /* Prevent horizontal scroll */
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  body{
-    overflow-x: auto;
-  }
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
-@media (min-width: 1024px) {
-  
-  body{
-    overflow-x: auto;
-  }
-}
-.navbar-toggler{
-  background-color: aqua;
-}
 nav {
   background-image: linear-gradient(-125deg, rgb(22, 10, 6), rgb(13, 2, 24));
- // background: transparent;
   text-transform:uppercase;
   li {
     margin-left: 1em;
@@ -81,11 +66,51 @@ nav {
     }
   }
 }
+.navbar-toggler {
+  border: none; /* Remove the border */
+  background-color: rgb(44, 185, 185);
+}
 
-.page-title {
+.collapse.navbar-collapse {
+  justify-content: flex-end; /* Align the navbar items to the right */
+}
+
+.navbar-nav {
+  margin-right: auto; /* Push the navbar items to the right */
+}
+
+.nav-link {
+  padding: 0.5rem 1rem; /* Adjust the padding as needed */
+}
+
+
+@media (max-width: 767px) {
+  .navbar-nav {
+    margin-bottom: 10px; /* Add some space at the bottom of the navbar items */
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.5rem; /* Reduce the padding of the navbar */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stack the navbar items vertically */
+    align-items: flex-end; /* Align the navbar items to the right */
+    margin: 0; /* Remove the margin */
+  }
+
+  .nav-link {
+    text-align: right; /* Align the navbar items to the right */
+    padding: 0.5rem 0; /* Adjust the padding as needed */
+  }
+}
+
+
+.page-text-color{
  color:#fff;
 
- 
 }
 
 html {
@@ -111,12 +136,6 @@ a {
 }
 
 
-
-.sub-head{
-  justify-content: left;
-  margin-left:40px;
-}
-
 .top {
   position: fixed;
   bottom: 10px;
@@ -131,11 +150,6 @@ a {
   }
 }
 
-svg{
-  width:80px;
-  height:80px;
-}
-
 
   
 
@@ -145,9 +159,12 @@ hr {
   border: none;
   height: 2px; /* Sets the height of the thin horizontal line */
   background-color: #000;
-  margin:0px;
-  margin-left: 10px;
-  margin-right: 10px;
+  /* top, right, bottom, left */
+  
+  // margin-left: 10px;
+  // margin-right: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
 
 hr{

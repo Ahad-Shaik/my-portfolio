@@ -86,6 +86,8 @@ import {heartBeatAnimation,
   fadeInExpandRightOnEnterAnimation,
   fadeOutCollapseLeftOnLeaveAnimation
 } from 'angular-animations';
+import { DomSanitizer } from '@angular/platform-browser';
+
 @Component({
   selector: 'app-experience',
   templateUrl: './experience.component.html',
@@ -188,7 +190,8 @@ export class ExperienceComponent implements OnInit {
   expState=true;
   
   private intersectionObserver!: IntersectionObserver;
-  constructor(private elementRef: ElementRef) {}
+  constructor(private elementRef: ElementRef,private sanitizer: DomSanitizer) {}
+
   
   togglePanels(panel: string): void {
     if (panel == 'panel1') {
@@ -200,6 +203,18 @@ export class ExperienceComponent implements OnInit {
     }
   }
 
+  getPdfUrl(): any {
+    const pdfPath = 'assets/Ahad_Resume.pdf'; 
+    return this.sanitizer.bypassSecurityTrustResourceUrl(pdfPath);
+  }
+  
+  previewPdf(): any{
+    const pdfUrl = 'assets/Ahad_Resume.pdf'; 
+    window.open(pdfUrl, '_blank');
+    return this.sanitizer.bypassSecurityTrustResourceUrl(pdfUrl);
+
+  }
+  
   ngOnInit(){
     const options = {
       rootMargin: '0px',

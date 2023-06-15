@@ -1,32 +1,30 @@
-<section id="section-about" class="section section-one">
-  <div class="about-logo" *ngIf="aboutState" [@fadeInOnEnter] [@fadeOutOnLeave]>
-    
-    <img
-    src="assets/aboutMe-icon.svg"
-    
-    alt="About Icon"
-    class="main-head-image"
-  />
+<div class="section-about">
+  
+    <div class="about-logo" *ngIf="aboutState" [@fadeInOnEnter] [@fadeOutOnLeave]>
+      <img src="assets/aboutMe-icon.svg" alt="About Icon" class="main-head-image" />
+      ABOUT ME
+    </div>
+    <div class="content">
+    <div class="sub-head">
+      <h2 class="about-desc" *ngIf="aboutState" [@lightSpeedInOnEnter] [@lightSpeedOutOnLeave]>
+        Shaik Ahad-<span style="color: springgreen; font-weight: 300">FrontEnd Developer</span>
+      </h2>
+  
+      <p class="about-desc" *ngIf="aboutState" [@lightSpeedInOnEnter] [@lightSpeedOutOnLeave]>
+        seasoned frontend developer with <span style="color: springgreen; font-weight: 300">2.2 years of experience</span>
+        at <span style="color: springgreen; font-weight: bold">Wipro</span> Limited
+        and have been involved in transforming complex requirements into elegant
+        and functional user interfaces.
+      </p>
+      <p class="about-desc" *ngIf="aboutState" [@lightSpeedInOnEnter] [@lightSpeedOutOnLeave]>
+        My expertise lies in developing efficient and scalable frontend solutions,
+        delivering exceptional user experiences that drive engagement and
+        satisfaction.
+      </p>
+    </div>
+  </div>
 
-    ABOUT ME
-  </div>
-  <div class="sub-head">
-    <h2 class="about-desc"  *ngIf="aboutState" [@lightSpeedInOnEnter] [@lightSpeedOutOnLeave] >
-      Shaik Ahad-<span style="color: springgreen; font-weight: 300"
-        >FrontEnd Developer</span
-      >
-    </h2>
-    <p class="about-desc"  *ngIf="aboutState" [@lightSpeedInOnEnter] [@lightSpeedOutOnLeave] >
-      seasoned frontend devloper with <span style="color: springgreen; font-weight: 300"
-      > 2.2 years of experience</span> at
-      <span style="color: springgreen; font-weight: bold">Wipro</span> Limited
-      and have been involved in transforming complex requirements into elegant
-      and functional user interfaces.
-    </p>
-    <p class="about-desc"  *ngIf="aboutState" [@lightSpeedInOnEnter] [@lightSpeedOutOnLeave] >
-      My expertise lies in developing efficient and scalable frontend solutions,
-      delivering exceptional user experiences that drive engagement and
-      satisfaction.
-    </p>
-  </div>
-</section>
+  <!-- <div class="profile-image">
+    <img src="assets/MyImage.jpg" alt="Profile Image" class="sub-head-image" *ngIf="aboutState" [@fadeInOnEnter] [@fadeOutOutOnLeave] />
+  </div>  -->
+</div>
