@@ -52,6 +52,16 @@ mat-panel-title,mat-panel-description {
   text-align: justify;
 }
 
+.section-proj {
+  display: flex;
+  flex-direction: column;
+}
+
+.proj-head {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
 @media (min-width: 576px) {
 
   .proj-head,
@@ -149,7 +159,7 @@ font-weight: bold;
 .exp-head {
   margin-top: 20px;
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
 }
 
 .exp-desc {
@@ -176,7 +186,7 @@ font-weight: bold;
   .exp-head,
   .exp-desc {
     align-items: flex-start;
-    text-align: center;
+    text-align: left;
   }
 
   .exp-desc {
@@ -187,7 +197,6 @@ font-weight: bold;
 
 @media (min-width: 768px) {
   .exp-head {
-    align-items: center;
     text-align: center;
   }
 
@@ -199,7 +208,7 @@ font-weight: bold;
 
 @media (min-width: 992px) {
   .exp-head {
-    align-items: center;
+ 
     text-align: center;
   }
 
@@ -299,11 +308,6 @@ font-weight: bold;
   margin-left: 20px;
 }
 
-.cont-text {
-  text-align: center;
-}
-
-
 a {
   text-decoration: none;
   color: springgreen;
@@ -321,7 +325,7 @@ a {
 
 .cont-text {
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 
@@ -329,6 +333,9 @@ a {
 
 
 @media screen and (max-width: 768px) {
+  .cont-text,.cont-logos{
+    text-align:left;
+  }
   .section-cont {
     padding: 0 20px;
   }
@@ -345,18 +352,27 @@ a {
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .cont-text,.cont-logos{
+    text-align:left;
+  }
   .section-cont {
     padding: 0 30px;
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .cont-text,.cont-logos{
+    text-align:center;
+  }
   .section-cont {
     padding: 0 50px;
   }
 }
 
 @media screen and (min-width: 1441px) {
+  .cont-text,.cont-logos{
+    text-align:left;
+  }
   .section-cont {
     padding: 0 100px;
   }
